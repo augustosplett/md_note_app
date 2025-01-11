@@ -4,9 +4,9 @@ import styles from './Sidebar.module.css';
 const Sidebar = ({ items }) => {
     return (
         <div className={styles.sidebar}>
-            <ul>
+            <ul className={styles.list}>
                 {items.map((item, index) => (
-                    <li key={index}>{item}</li>
+                    <li className={styles.listItem} key={index}>{item}</li>
                 ))}
             </ul>
         </div>
