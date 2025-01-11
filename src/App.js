@@ -1,6 +1,7 @@
 import MainPage from './components/MainPage';
 import Sidebar from './components/Sidebar';
 import TextPage from './components/TextPage';
+
 function App() {
   return (
     <MainPage>
